@@ -3,7 +3,7 @@
        #Question1
 
 from math import pi
-from turtle import width
+
 class Circle:
 
     def __init__(self,radius):
@@ -51,17 +51,17 @@ class Rectangle:
           self.width = width
 
     def area(self):
-        a = self.length * self.height
+        a = self.length * self.width
         return a
 
         
     def perimeter(self):
-        b = 2(self.length + self.width)
+        b = 2*(self.length,self.width)
         return b
 
 s = Rectangle(length=12,width=10)
-x = Rectangle.area()
-z = Rectangle.perimeter()
+print(s.area())
+print(s.perimeter())
 
 
 #   #Question 4
@@ -78,9 +78,9 @@ class Sphere:
         return y
 
 a1 = Sphere(radius = 30)
-print(c1.radius)
-print(c1.area())
-print(c1.volume())   
+print(a1.radius)
+print(a1.area())
+print(a1.volume())   
 
 
 
