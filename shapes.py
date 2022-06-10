@@ -14,7 +14,7 @@ class Circle:
         return x
 
     def circumference(self):
-        y = 2 * pi*self.radius**2
+        y = 2 * pi*self.radius
         return y
 
 c1 = Circle(radius=21)
