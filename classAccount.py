@@ -31,11 +31,11 @@ class Account :
 
 
         def statement_deposit(self):
-             for x in self.deposit: 
-                print(f"dear {self.name} your statement is {x}")
+             for deposit in self.deposits: 
+                print(f"dear {self.name} your statement is {deposit}")
 
         def statement_withdraw(self):
-             for amount in self.withdraw:
+             for amount in self.withdrawals:
                 print(f"Dear {self.name} your withdrawal statement is {amount}")
 
         def current_bal(self):
